@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>테스트 페이지</title>        
+    </head>
+        <!--hard trainning-->
+    <body>
+        <ol type="A">
+            <li>
+                <ul>
+                    <li>rk</li>
+                    <li>sk</li>
+                    <li>ek</li>
+                </ul>
+            </li>
+            <li>
+                <ol type="I" start="5" reversed>
+                    <li>rk</li>
+                    <li>sk</li>
+                    <li>dk</li>
+                </ol>
+            </li>
+        </ol>
+        <dl>
+
+            <dt>carpe diem</dt>
+            <dd>sieze the day</dd>
+            <dd>happiness</dd>
+            <dd>good</dd>
+        </dl>
+
+        <hr>
+        <table border="3">
+            <caption>
+                <strong>browser</strong>
+                <p>user info.</p>
+            </caption>
+            <tr>
+                <th>num.</th>
+                <th>num.</th>
+                <th>num.</th>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <figure>
+            <figcaption>left caption</figcaption>
+            <table border="1" aria-describedby="commentary">
+                <tr>
+                    <th>name</th>
+                    <td width="100"></td>
+                    <th>number</th>
+                    <td width="100"></tdwidth="100">
+                </tr>
+                <tr>
+                    <th>address</th>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <th>introduce</th>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+            <p id="commentary">figure로 감싼 형태의 테이블</p>
+        </figure>
+        <table border="2" width="100">
+            <caption>rowspan</caption>
+            <tr>
+                <td rowspan="2">thx</td> <td>1</td>
+            </tr>    
+            <tr><td>2</td></tr>
+        </table>
+        <table border="1" width="200" height="100">
+            <caption>colgroup 연습</caption>
+            <colgroup>
+                <col>
+                <col span="2" style="background-color: aquamarine;">
+                <col span="1" style="background-color: burlywood;">
+            </colgroup>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+        </table>
+
+        <hr>
+        <p><a href="images/20180829_161515.JPG" target="_blank" title="dadaepo">sea click</a></p>
+        <h1><a href="http://google.com" target="_blank" title="google gogo">google</a></h1>
+        <h1><a href="http://google.com" target="_self" title="google gogo">google</a></h1>
+        <h1>
+            <a href="http://google.com" target="_blank">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" title="google">
+            </a>
+        </h1>
+
+        <hr>
+        <iframe src="iframe_tst.html" frameborder="3"></iframe>
+        
+        <hr>
+        <h1>h태그</h1>
+        <h4>사이즈 차이</h4>
+        <p>p태그<br>
+        meta태그는 문자 유형을 설정한다. <br>
+        그리고 사이트의 검색정보와 설명을 담을 수 있다.</p>
+        
+        <p>이것이 mark태그<mark>형광펜</mark></p>
+        <p>span태그는 단락안에서 <span style="color: gold;">
+            특정 범위만 지정해 변화를 주는 태그</span>다.</p>
+        <p>루비 태그는 <ruby>이렇게<rt>요래요래</rt> 사용한다</ruby> </p>        
+        <pre>
+            pre태그는 코드나 블랭크를 있는 그대로 표기하지만
+            스크린 리더가 인식하지 않는다.
+        </pre>
+        <p><strong>very strong</strong><br><b>just thick</b></p>
+        <p><em>highlight italic</em><br><i>just italic</i></p>
+        <p><s>cannncel line</s></p>
+        <p><u>under line</u></p>
+        <blockquote>인용문: 하하하하 세상아 내가 이겼다.</blockquote>
+        <p>all right<q>q태그는 blockquote처럼 별도로 작성 되지 않고 
+           ""안에 그 라인 그대로 표시된다.</q></p>
+           
+        <hr>
+        <p><abbr title="Internet of Things">IoT</abbr>란 사물 인터넷 기술</p>
+        <p>I'm king of the world <cite>타이타닉</cite></p>
+        <p>화면 리플레쉬 <kbd>F5</kbd> 눌러라</p>
+        <p><small>작게 표시</small></p>
+        <p>sub태그는<sub>아래 첨자</sub></p>
+        <p>sup태그는<sup>위 첨자</sup></p>
+        <hr>
+        <img src="images/20180829_161515.jpg" alt="sea" title="dadaepo" width="100%">
+        <figure>
+            <figcaption>beer - heineken</figcaption>
+            <img src="images/IMG_2085.JPG" alt="beer" title="heineken dark" width="100%">
+        </figure>
+    </body>
+</html>
